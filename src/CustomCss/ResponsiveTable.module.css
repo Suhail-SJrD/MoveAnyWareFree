@@ -1,0 +1,99 @@
+/* ResponsiveTable.module.css */
+
+.tableContainer {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1200px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.heading span {
+  color: #007bff;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Scrollable Table Wrapper for Small Screens */
+.tableWrapper {
+  overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Responsive Stacked Layout for Small Screens */
+@media (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none; /* Hide table headers */
+  }
+
+  tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+
+  td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+  }
+}
+
+.note {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.note a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}
