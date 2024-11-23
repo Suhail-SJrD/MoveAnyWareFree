@@ -4,7 +4,7 @@
 
 .newheroSection {
   background-image: linear-gradient(rgba(4, 41, 89, 0.5), rgba(4, 41, 89, 0.5)),
-    url("../Assets/HeroSection/Mainbg.webp");
+    url("../Assets/HeroSection/BgHeroBanner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
         rgba(4, 41, 89, 0.5),
         rgba(4, 41, 89, 0.5)
       ),
-      url("../Assets/HeroSection/Mainbg.webp");
+      url("../Assets/HeroSection/BgHeroBanner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
         rgba(4, 41, 89, 0.5),
         rgba(4, 41, 89, 0.5)
       ),
-      url("../Assets/HeroSection/Mainbg.webp");
+      url("../Assets/HeroSection/BgHeroBanner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
         rgba(4, 41, 89, 0.5),
         rgba(4, 41, 89, 0.5)
       ),
-      url("../Assets/HeroSection/Mainbg.webp");
+      url("../Assets/HeroSection/BgHeroBanner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

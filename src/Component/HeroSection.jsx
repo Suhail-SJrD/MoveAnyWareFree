@@ -103,17 +103,17 @@ function HeroSection() {
         <div
           className={`text-black text-center md:text-left md:space-y-7 w-full md:w-[55%] p-4 md:p-6 ${HeroSectionCSS.LTR}`}
         >
-          <h1 className="text-3xl text-black md:text-4xl font-bold mb-4 leading-tight">
-            Kerala Tour Packages - Up to 30% Off, Lowest Price Guaranteed
+          <h1 className="text-3xl text-white md:text-4xl font-bold mb-4 leading-tight">
+            Book an Packages Movers - Up to 30% Off, Lowest Price Guaranteed
           </h1>
-          <p className="text-base text-black md:text-[1.3rem]">
-            Book customized Kerala Packages with exciting deals & offers.
+          <p className="text-base text-white md:text-[1.3rem]">
+            Book customize your Packages Assets with exciting deals & offers.
           </p>
-          <p className="text-sm text-black md:text-base mt-2">
-            Cochin | Munnar | Alleppey | Thekkady | Kovalam | Varkala
+          <p className="text-sm text-white md:text-base mt-2">
+            USA | INDIA | CHINA | NEW YORK | PARIS | LONDAN
           </p>
           <div className="relative inline-block">
-            <p className="text-sm text-black md:text-base mt-2 ">
+            <p className="text-sm text-white md:text-base mt-2 ">
               Want Free Consultation? Ask Our Travel Expert!
             </p>
             <div className="flex items-center justify-center md:absolute md:top-[-4rem] md:right-[-7rem]">
